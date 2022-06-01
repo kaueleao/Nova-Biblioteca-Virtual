@@ -2,69 +2,96 @@
     ViewData["Title"] = "Listagem de Livros";
 }
 
-<h1 class="display-4">Listagem de Livros</h1>
-    
-<table class="table">
-  <thead> <!--Aqui altera a cor do cabeçalho-->
-    <tr>
-        <!--Colunas-->
-      <th scope="col">#</th>
-      <th scope="col">Título do Livro</th>
-      <th scope="col">Editora</th>
-      <th scope="col">Ano</th>
-      <th scope="col">Edição</th>
-      <th scope="col">Idioma</th>
-      <th scope="col">Categoria</th>
-      <th scope="col">ISBN</th>
-      <th scope="col">CDD</th>
-      <th scope="col">Estante</th>
-      <th scope="col">Prateleira</th>
-      <th scope="col">Observações</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Delphi 6 - Firebird/Interbase</td>
-      <td>Érica</td>
-      <td>2006</td>
-      <td>1º Edição</td>
-      <td>Português</td>
-      <td>Informática</td>
-      <td>85-7194-845-3</td>
-      <td>303.483</td>
-      <td>I</td>
-      <td>6</td>
-      <td>Livro de Programação</td>
+<div class="text-center">
+    <h1 class="display-4">Listagem de Livros</h1>
 
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Delphi 6 - Firebird/Interbase</td>
-      <td>Érica</td>
-      <td>2006</td>
-      <td>1º Edição</td>
-      <td>Português</td>
-      <td>Informática</td>
-      <td>85-7194-845-3</td>
-      <td>303.483</td>
-      <td>I</td>
-      <td>6</td>
-      <td>Livro de Programação</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Delphi 6 - Firebird/Interbase</td>
-      <td>Érica</td>
-      <td>2006</td>
-      <td>1º Edição</td>
-      <td>Português</td>
-      <td>Informática</td>
-      <td>85-7194-845-3</td>
-      <td>303.483</td>
-      <td>I</td>
-      <td>6</td>
-      <td>Livro de Programação</td>
-    </tr>
-  </tbody>
+<table class="table">
+    <thead>
+        <!--Aqui altera a cor do cabeçalho-->
+        <tr>
+            <!--Colunas-->
+            <th scope="col">#</th>
+            <th scope="col">Título do Livro</th>
+            <th scope="col">Editora</th>
+            <th scope="col">Ano</th>
+            <th scope="col">Edição</th>
+            <th scope="col">Idioma</th>
+            <th scope="col">Categoria</th>
+            <th scope="col">ISBN</th>
+            <th scope="col">CDD</th>
+            <th scope="col">Estante</th>
+            <th scope="col">Prateleira</th>
+            <th scope="col">Observações</th>
+            <th scope="col">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Delphi 6 - Firebird/Interbase</td>
+            <td>Érica</td>
+            <td>2006</td>
+            <td>1º Edição</td>
+            <td>Português</td>
+            <td>Informática</td>
+            <td>85-7194-845-3</td>
+            <td>303.483</td>
+            <td>I</td>
+            <td>6</td>
+            <td>Livro de Programação</td>
+            <td>
+                <!--Botões-->
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-warning">Editar</a>
+                    <a role="button" class="btn btn-danger">Apagar</a>
+                </div>
+            </td>
+
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Delphi 6 - Firebird/Interbase</td>
+            <td>Érica</td>
+            <td>2006</td>
+            <td>1º Edição</td>
+            <td>Português</td>
+            <td>Informática</td>
+            <td>85-7194-845-3</td>
+            <td>303.483</td>
+            <td>I</td>
+            <td>6</td>
+            <td>Livro de Programação</td>
+            <td>
+                <!--Botões-->
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-warning">Editar</a>
+                    <a role="button" class="btn btn-danger">Apagar</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Delphi 6 - Firebird/Interbase</td>
+            <td>Érica</td>
+            <td>2006</td>
+            <td>1º Edição</td>
+            <td>Português</td>
+            <td>Informática</td>
+            <td>85-7194-845-3</td>
+            <td>303.483</td>
+            <td>I</td>
+            <td>6</td>
+            <td>Livro de Programação</td>
+            <td>
+                <!--Botões-->
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-warning">Editar</a>
+                    <a role="button" class="btn btn-danger">Apagar</a>
+                </div>
+            </td>
+        </tr>
+    </tbody>
 </table>
+
+</div>
+
