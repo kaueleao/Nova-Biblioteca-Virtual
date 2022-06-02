@@ -1,5 +1,15 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Deletar Cadastro Livro";
 }
+
+<div class="text-center">
+
+    <h1 class="display-4">Deletar o Cadastro do Livro (XXXXXXXX) ? </h1>
+
+</div>
+    
+
+  <a class="btn btn-danger btn-block" role="button" asp-controller="Livro" asp-action="ConfirmarApagar" >Deletar</a>
+  <a class="btn btn-primary" role="button" asp-controller="Livro" asp-action="Index">Cancelar</a>
+
+
