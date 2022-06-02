@@ -24,5 +24,10 @@ namespace NovaBibiotecaVirtual.Controllers
         {
             return View();
         }
+
+        public IActionResult ConfirmaraApagar()
+        {
+            return View();
+        }
     }
 }
