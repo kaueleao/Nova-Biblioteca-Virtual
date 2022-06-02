@@ -3,6 +3,15 @@
 }
 
 <div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <!--Classe para alinhar a direita-->
+        <!-- 
+            * asp-controller = Serve para identificar controle será usado.
+            * asp-action = Serve para identificar qual view será usada.
+        -->
+        <a class="btn btn-primary" role="button" asp-controller="Livro" asp-action="Cadastrar">Cadastrar Novo Livro</a>
+    </div>
+    <br />
     <h1 class="display-4">Listagem de Livros</h1>
 
 <table class="table">
