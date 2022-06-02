@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Editar Cadastro Livro";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Cadastrar Novo Livro</h1>
+
+</div>
+
+<form>
+
+<!--
+    <label for="titulo"></label>
+    <input type="text" class="form-control"  placeholder="Digite Título do Livro">  </div>
+    -->
+
+    <!-- 2 column grid layout with text inputs for the first and last names -->
+  <div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="titulo" class="form-control" placeholder="Digite o Título do Livro" />
+        <label class="form-label" for="titulo">Título do Livro</label>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="autor" class="form-control" placeholder="Digite o Nome do Autor" />
+        <label class="form-label" for="autor">Autor do Livro</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Text input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="editora" class="form-control" placeholder="Digite o Nome da Editora" />
+    <label class="form-label" for="editora">Editora</label>
+  </div>
+
+  <!-- Text input -->
+  <div class="form-outline mb-4">
+    <input type="number" id="ano" class="form-control" placeholder="Digite o Ano de Publicação" />
+    <label class="form-label" for="ano">Ano de Publicação</label>
+  </div>
+
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="edicao" class="form-control" placeholder="Digite o Nº da Edição" />
+    <label class="form-label" for="edicao">Nº Edição</label>
+  </div>
+
+  <!-- Number input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="idioma" class="form-control" placeholder="Digite o Idioma do Livro" />
+    <label class="form-label" for="idioma">Idioma do Livro</label>
+  </div>
+
+    <!-- Number input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="categoria" class="form-control" placeholder="Digite a Categoria do Livro" />
+    <label class="form-label" for="categoria">Categoria do Livro</label>
+  </div>
+
+    <!-- Number input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="isbn" class="form-control" placeholder="Digite o Nº ISBN" />
+    <label class="form-label" for="isbn">Nº ISBN</label>
+  </div>
+
+    <!-- Number input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="cdd" class="form-control" placeholder="Digite o CDD - Decimal de Dewey" />
+    <label class="form-label" for="cdd">CDD - Decimal de Dewey</label>
+  </div>
+
+     <!-- Number input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="estante" class="form-control" placeholder="Digite a Estante do Livro" />
+    <label class="form-label" for="estante">Estante</label>
+  </div>
+
+     <!-- Number input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="prateleira" class="form-control" placeholder="Digite a Prateleira do Livro" />
+    <label class="form-label" for="prateleira">Prateleira</label>
+  </div>
+
+  <!-- Message input -->
+  <div class="form-outline mb-4">
+    <textarea class="form-control" id="observacoes" rows="4" placeholder="Digite as Observações do Livro"></textarea>
+    <label class="form-label" for="observacoes">Observações</label>
+  </div>
+    
+
+  <button type="submit" class="btn btn-primary">Alterar</button>
+  <a class="btn btn-secondary" asp-controller="Livro" asp-action="Index" role="button">Voltar</a>
+
+</form>
